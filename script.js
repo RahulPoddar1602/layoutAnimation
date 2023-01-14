@@ -38,9 +38,9 @@ cards.forEach((card,index) => {
             absolute:true,
             // ease:"elastic.out(1,0.5)"
             ease:"expo.out",
-            onComplete:()=>{
-                gsap.to(".card p",{color:"red",duration:4})
-            }
+            // onComplete:()=>{
+            //     gsap.to(".card p",{color:"red",duration:4})
+            // }
         })
     })
 })
